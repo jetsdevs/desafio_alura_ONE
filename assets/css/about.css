@@ -146,4 +146,13 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+
+    .container {
+        width: 345px;
+        height: 510px;
+    }
+
+    textarea {
+        width: 240px;
+    }
 }
