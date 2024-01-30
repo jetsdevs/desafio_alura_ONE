@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/image/favicon.png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Desafio ONE | Alura</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Decodificador</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" id="tema" href="#">Alterar Tema</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__titulo">
+                <strong>Decodificador Digital</strong>
+            </h1>
+            <p class="apresentacao__texto">
+            <h2 class="apresentacao__texto__h3">
+                Projeto realizado para codificar e descodificar palavras ou frases aleatórias.
+            </h2>
+            </p>
+            <p class="apresentacao__texto">
+                Desafio proposto pela Alura + ONE (Oracle Next Education), para melhoria do desenvolvimento em
+                lógica e linguagens de programação.
+            </p>
+
+            <div class="apresentacao__buttom">
+                <h3 class="apresentacao__buttom__texto">Funções: </h3>
+                <a id="botaoCodificar" class="apresentacao__buttom__link" type="button">Codificar</a>
+                <a id="botaoDescodificar" class="apresentacao__buttom__link" type="button">Descodificar</a>
+                <a id="botaoCopiar" class="apresentacao__buttom__link" type="button">Copiar</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="container__conteudo">
+                    <div class="container__informacoes">
+                        <div class="container__texto">
+                            <h1 class="apresentacao__texto__h3">DIGITE O TEXTO A SER TRATADO:</h1>
+                        </div>
+                        <textarea class="container__texto-azul" id="areaTexto" placeholder="Digite aqui seu texto"
+                            name="story" rows="10" cols="55"></textarea>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="game-board">
+        <img src="/assets/image/clouds.png" class="clouds">
+        <img class="mario" src="/assets/image/mario.gif">
+    </div>
+    <footer class="footer">
+        <a href="https://github.com/jetsdevs"><img src="/assets/image/github.png" alt="github"></a>
+        JETS &copy; 2024
+        <a href="https://www.linkedin.com/in/jos%C3%A9-eugenio-tomaz-da-silva-b0864573/"><img
+                src="/assets/image/linkedin.png" alt="linkedin"></a>
+
+
+    </footer>
+
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
