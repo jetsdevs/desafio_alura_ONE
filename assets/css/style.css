@@ -12,7 +12,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     color: var(--cor-primaria);
-    background: linear-gradient(var(--cor-fundo), var(--cor-fundo2));
+    background: linear-gradient(var(--cor-fundo), var(--cor-fundo2), var(--cor-fundo));
 }
 
 .cabecalho {
